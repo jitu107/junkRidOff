@@ -4,6 +4,7 @@ import Carousal from './Carousal'
 import About from './About'
 import HireUs from './HireUs'
 import Services from './Services'
+import contactUs from '../ContactUs/contactUs';
 
 export class Body extends Component {
     constructor(props) {
@@ -22,6 +23,7 @@ export class Body extends Component {
 
                     <Route path="/" exact component={Services} />
                     <Route path="/services" exact component={Services} />
+                    <Route path="/contactUs" exact component={contactUs}/>
                     <Route path="/about" exact component={About} />
                     <Route path="/hireUs" exact component={HireUs} />
 

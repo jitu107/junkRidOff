@@ -1,0 +1,18 @@
+.bg-dark {
+    background-color: #6c757d!important;
+}
+.validate_form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: start;
+    justify-items: center;
+    justify-content: space-between;
+}
+.formInput{
+    display: flex;
+    flex-direction: row;
+    justify-items: left;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem;
+}

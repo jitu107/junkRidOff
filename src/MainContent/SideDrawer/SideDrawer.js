@@ -16,6 +16,7 @@ import CallOutlinedIcon from '@material-ui/icons/CallOutlined';
 import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import { Link } from 'react-router-dom';
+import contactUs from '../ContactUs/contactUs';
 
 const SideDrawer = (props) => {
     let drawerClasses = ['side_drawer'];
@@ -36,36 +37,46 @@ const SideDrawer = (props) => {
                 </div>
                 <div className='home_nav_list'>
                     <List component="nav" aria-label="main mailbox folders">
+                        <Link  className="textColorWhite" to="/">
                         <ListItem button>
                             <ListItemIcon>
                                 <HomeIcon color="primary" />
                             </ListItemIcon>
-                            <Link to="/"> <ListItemText className="textColorWhite" > Home</ListItemText></Link>
+                            <ListItemText  > Home</ListItemText>
                         </ListItem>
+                        </Link>
+                        <Link  className="textColorWhite" to="/services">
                         <ListItem button>
                             <ListItemIcon>
                                 <AssignmentTurnedInOutlinedIcon color="primary" />
                             </ListItemIcon >
-                            <Link to="/services"> <ListItemText className="textColorWhite">Service </ListItemText></Link>
+                            <ListItemText >Service </ListItemText>
                         </ListItem>
+                        </Link>
+                        <Link  className="textColorWhite" to="/contactUs">
                         <ListItem button>
                             <ListItemIcon>
                                 <CallOutlinedIcon color="primary" />
                             </ListItemIcon >
-                            <Link to="/"><ListItemText className="textColorWhite">Contact Us</ListItemText></Link>
+                            <ListItemText>Contact Us</ListItemText>
                         </ListItem>
+                        </Link>
+                        <Link className="textColorWhite" to="/hireUs">
                         <ListItem button>
                             <ListItemIcon>
                                 <WorkIcon color="primary" />
                             </ListItemIcon>
-                            <Link className="textColorWhite" to="/hireUs"> <ListItemText  >Hire Us</ListItemText></Link>
+                             <ListItemText  >Hire Us</ListItemText>
                         </ListItem>
+                        </Link>
+                        <Link  className="textColorWhite" to="/about">
                         <ListItem button>
                             <ListItemIcon>
                                 <InfoIcon color="primary" />
                             </ListItemIcon>
-                            <Link to="/about"><ListItemText className="textColorWhite">About Us</ListItemText></Link>
+                            <ListItemText>About Us</ListItemText>
                         </ListItem>
+                        </Link>
                     </List>
                 </div>
 
