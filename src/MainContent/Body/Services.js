@@ -14,6 +14,13 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
+import {
+    EmailShareButton,
+    FacebookShareButton,
+    InstapaperShareButton,
+    WhatsappShareButton,
+    WhatsappIcon
+} from "react-share";
 
 export class Services extends Component {
     constructor(props) {
@@ -23,7 +30,7 @@ export class Services extends Component {
 
         }
     }
-    
+
     render() {
         const imgStyle = {
             height: "175px"
@@ -56,7 +63,7 @@ export class Services extends Component {
                             </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
                                 </Button>
                                 <Button size="small" color="primary">
                                     Book Appointment By Call at  9073737378 or 9073383333
@@ -82,7 +89,7 @@ export class Services extends Component {
                             </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
                                 </Button>
                                 <Button size="small" color="primary">
                                     Book Appointment By Call at  9073737378 or 9073383333
@@ -108,7 +115,7 @@ export class Services extends Component {
                             </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
                                 </Button>
                                 <Button size="small" color="primary" onClick={this.makePhoneCall}>
                                     Book Appointment By Call at  9073737378 or 9073383333
@@ -126,18 +133,18 @@ export class Services extends Component {
                                         Car-Bike washing Services
                                     </Typography>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        These services has given more comfortable for our Kolkata based people and can take a high quality of cleaning services at their doorstep in affordable rates based on our customisable plans as per need.<br/>
-                                        This service is available for any class of people those who have their vehicles.<br/>
+                                        These services has given more comfortable for our Kolkata based people and can take a high quality of cleaning services at their doorstep in affordable rates based on our customisable plans as per need.<br />
+                                        This service is available for any class of people those who have their vehicles.<br />
                                         We do provide the complete cleaning services for car and bike for exterior - interior cleaning services too as per our customer's need.
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Book Appointment By Call at  9073737378 or 9073383333 
+                                    Book Appointment By Call at  9073737378 or 9073383333
                                 </Button>
                             </CardActions>
                         </Card>
@@ -159,7 +166,7 @@ export class Services extends Component {
                             </CardActionArea>
                             <CardActions>
                                 <Button size="small" color="primary">
-                                    Share
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
                                 </Button>
                                 <Button size="small" color="primary">
                                     Book Appointment By Call at  9073737378 or 9073383333
