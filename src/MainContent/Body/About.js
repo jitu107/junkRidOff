@@ -13,10 +13,10 @@ export class About extends Component {
     render() {
         return (
             <Fragment>
-                <div className="text-center  mx-1">
+                <div className=" px-3">
                     <Typography align="center" display="block" variant="h4" color="primary"> About Us</Typography>
                     <div className="mt-1">
-                        <Typography align="justify" display="block" >
+                        <Typography align="justify" display="block"  >
                             <b>Junk Rid off</b> solution and services was newly established based in the joy of city Kolkata,
                              West Bengal in 2020 during the pendamic situation by four friends.<br/>
                         

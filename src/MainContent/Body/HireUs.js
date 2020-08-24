@@ -14,9 +14,9 @@ import FavoriteOutlinedIcon from '@material-ui/icons/FavoriteOutlined';
 const HireUs = () => {
     return (
         <Fragment>
-            <div className="text-center">
-                <Typography variant="h4" display="block" color="primary"> Why Hire Us ...</Typography>
-                <div className="mx-1 mt-1">
+            <div className="mx-3">
+                <Typography variant="h4" display="block" color="primary" align="center"> Why Hire Us ...</Typography>
+                <div className=" mt-1">
                     <Typography align="justify" display="block" >
                         As we have the concrete mission and objective to serve you the best and to develop eco-friendly solutions and services at your door step. <br />
                         However, we have also been focussing on the following points for you and your family needs:-<br />
