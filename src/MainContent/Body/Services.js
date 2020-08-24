@@ -66,7 +66,7 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions className="ml-3 p-0">
+                            <CardActions className="m-0 p-0">
                                 <Button size="small" color="primary" className="m-0 p-0">
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
@@ -74,7 +74,7 @@ export class Services extends Component {
 
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <Typography variant="caption" >Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding HouseKeeping " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
+                                    <Typography variant="caption" >Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="default" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding HouseKeeping " className="ml-2"><MessageIcon fontSize="default" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -95,7 +95,7 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions className="ml-3 p-0">
+                            <CardActions className="m-0 p-0">
                                 <Button size="small" color="primary" className="m-0 p-0">
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
@@ -103,7 +103,7 @@ export class Services extends Component {
 
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Garbage pickup " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="default" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Garbage pickup " className="ml-2"><MessageIcon fontSize="default" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -124,7 +124,7 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions className="ml-3 p-0">
+                            <CardActions className="m-0 p-0">
                                 <Button size="small" color="primary" className="m-0 p-0">
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
@@ -132,7 +132,7 @@ export class Services extends Component {
 
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Door step Junk removal " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="default" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Door step Junk removal " className="ml-2"><MessageIcon fontSize="default" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -153,7 +153,7 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions className="ml-3 p-0">
+                            <CardActions className="m-0 p-0">
                                 <Button size="small" color="primary" className="m-0 p-0">
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
@@ -161,7 +161,7 @@ export class Services extends Component {
 
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Car-Bike washing " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="default" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Car-Bike washing " className="ml-2"><MessageIcon fontSize="default" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -181,7 +181,7 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions className="ml-3 p-0">
+                            <CardActions className="m-0 p-0">
                                 <Button size="small" color="primary" className="m-0 p-0">
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
@@ -189,7 +189,7 @@ export class Services extends Component {
 
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Sanitization " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="default" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need service regarding Sanitization " className="ml-2"><MessageIcon fontSize="default" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
