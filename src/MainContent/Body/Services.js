@@ -15,6 +15,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
+import CallIcon from '@material-ui/icons/Call';
 import {
     EmailShareButton,
     FacebookShareButton,
@@ -72,7 +73,7 @@ export class Services extends Component {
                                     
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Appointment By Call at  9073737378 / 9073383333
+                                    <a href="tel:9073737378">Click to Book Appointment</a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -101,7 +102,7 @@ export class Services extends Component {
                                     
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Appointment By Call at  9073737378 / 9073383333
+                                     <a href="tel:9073737378">Click to Book Appointment</a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -130,7 +131,7 @@ export class Services extends Component {
                                     
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Appointment By Call at  9073737378 / 9073383333
+                                     <a href="tel:9073737378">Click to Book Appointment</a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -159,7 +160,7 @@ export class Services extends Component {
                                     
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Appointment By Call at  9073737378 / 9073383333
+                                     <a href="tel:9073737378">Click to Book Appointment</a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -187,7 +188,7 @@ export class Services extends Component {
                                     
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Appointment By Call at  9073737378 / 9073383333
+                                     <a href="tel:9073737378">Click to Book Appointment</a>
                                 </Button>
                             </CardActions>
                         </Card>
