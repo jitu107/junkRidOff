@@ -3,6 +3,7 @@ import Housekeeping from '../../asset/houseKeeping.jpeg'
 import GarbagePickup from '../../asset/garbagePickup.jpeg'
 import carCleaning from '../../asset/carCleaning.jpeg'
 import sanitization from '../../asset/sanitization.jpeg'
+import './Services.css';
 
 
 
@@ -17,7 +18,9 @@ import Button from '@material-ui/core/Button';
 import {
     EmailShareButton,
     FacebookShareButton,
-    InstapaperShareButton,
+    FacebookIcon,
+    TwitterShareButton,
+    TwitterIcon,
     WhatsappShareButton,
     WhatsappIcon
 } from "react-share";
@@ -61,12 +64,15 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary">
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
+                            <CardActions className="ml-3 p-0">
+                                <Button size="small" color="primary" className="m-0 p-0">
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Book Appointment By Call at  9073737378 or 9073383333
+                                    Appointment By Call at  9073737378 / 9073383333
                                 </Button>
                             </CardActions>
                         </Card>
@@ -87,12 +93,15 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary">
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
+                            <CardActions className="ml-3 p-0">
+                                <Button size="small" color="primary" className="m-0 p-0">
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Book Appointment By Call at  9073737378 or 9073383333
+                                    Appointment By Call at  9073737378 / 9073383333
                                 </Button>
                             </CardActions>
                         </Card>
@@ -113,12 +122,15 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary">
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
+                            <CardActions className="ml-3 p-0">
+                                <Button size="small" color="primary" className="m-0 p-0">
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    
                                 </Button>
-                                <Button size="small" color="primary" onClick={this.makePhoneCall}>
-                                    Book Appointment By Call at  9073737378 or 9073383333
+                                <Button size="small" color="primary">
+                                    Appointment By Call at  9073737378 / 9073383333
                                 </Button>
                             </CardActions>
                         </Card>
@@ -139,12 +151,15 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary">
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
+                            <CardActions className="ml-3 p-0">
+                                <Button size="small" color="primary" className="m-0 p-0">
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Book Appointment By Call at  9073737378 or 9073383333
+                                    Appointment By Call at  9073737378 / 9073383333
                                 </Button>
                             </CardActions>
                         </Card>
@@ -164,12 +179,15 @@ export class Services extends Component {
                                     </Typography>
                                 </CardContent>
                             </CardActionArea>
-                            <CardActions>
-                                <Button size="small" color="primary">
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <WhatsappIcon size={32} round={true} /></WhatsappShareButton>
+                            <CardActions className="ml-3 p-0">
+                                <Button size="small" color="primary" className="m-0 p-0">
+                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    
                                 </Button>
                                 <Button size="small" color="primary">
-                                    Book Appointment By Call at  9073737378 or 9073383333
+                                    Appointment By Call at  9073737378 / 9073383333
                                 </Button>
                             </CardActions>
                         </Card>
