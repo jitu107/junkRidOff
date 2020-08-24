@@ -74,7 +74,7 @@ export class Services extends Component {
 
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need servie regarding Car-Bike washing " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
+                                    <Typography variant="caption" >Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need servie regarding Car-Bike washing " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
