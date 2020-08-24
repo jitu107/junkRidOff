@@ -16,6 +16,7 @@ import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import CallIcon from '@material-ui/icons/Call';
+import MessageIcon from '@material-ui/icons/Message';
 import {
     EmailShareButton,
     FacebookShareButton,
@@ -70,10 +71,10 @@ export class Services extends Component {
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
                                     <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
-                                    
+
                                 </Button>
                                 <Button size="small" color="primary">
-                                    <a href="tel:9073737378">Click to Book Appointment</a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need servie regarding Car-Bike washing " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -99,10 +100,10 @@ export class Services extends Component {
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
                                     <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
-                                    
+
                                 </Button>
                                 <Button size="small" color="primary">
-                                     <a href="tel:9073737378">Click to Book Appointment</a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need servie regarding Garbage pickup " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -128,10 +129,10 @@ export class Services extends Component {
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
                                     <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
-                                    
+
                                 </Button>
                                 <Button size="small" color="primary">
-                                     <a href="tel:9073737378">Click to Book Appointment</a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need servie regarding Door step Junk removal " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -157,10 +158,10 @@ export class Services extends Component {
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
                                     <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
-                                    
+
                                 </Button>
                                 <Button size="small" color="primary">
-                                     <a href="tel:9073737378">Click to Book Appointment</a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need servie regarding Car-Bike washing " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
@@ -185,10 +186,10 @@ export class Services extends Component {
                                     <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className=" m-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
                                     <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} > <FacebookIcon size={26} round={true} /></FacebookShareButton>
                                     <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
-                                    
+
                                 </Button>
                                 <Button size="small" color="primary">
-                                     <a href="tel:9073737378">Click to Book Appointment</a>
+                                    <Typography variant="caption">Appointment By:-</Typography> <a href="tel:9073737378"> <CallIcon fontSize="small" color="primary" className="mx-1" /></a>  <a href="sms:9073737378?body=Hi, I need servie regarding Sanitization " className="ml-2"><MessageIcon fontSize="small" color="primary" /> </a>
                                 </Button>
                             </CardActions>
                         </Card>
