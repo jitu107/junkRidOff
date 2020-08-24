@@ -40,7 +40,7 @@ const SideDrawer = (props) => {
                         <Link  className="textColorWhite" to="/">
                         <ListItem button>
                             <ListItemIcon>
-                                <HomeIcon color="primary" />
+                                <HomeIcon className="textColorWhite" />
                             </ListItemIcon>
                             <ListItemText  > Home</ListItemText>
                         </ListItem>
@@ -48,7 +48,7 @@ const SideDrawer = (props) => {
                         <Link  className="textColorWhite" to="/services">
                         <ListItem button>
                             <ListItemIcon>
-                                <AssignmentTurnedInOutlinedIcon color="primary" />
+                                <AssignmentTurnedInOutlinedIcon className="textColorWhite" />
                             </ListItemIcon >
                             <ListItemText >Service </ListItemText>
                         </ListItem>
@@ -56,7 +56,7 @@ const SideDrawer = (props) => {
                         <Link  className="textColorWhite" to="/contactUs">
                         <ListItem button>
                             <ListItemIcon>
-                                <CallOutlinedIcon color="primary" />
+                                <CallOutlinedIcon className="textColorWhite" />
                             </ListItemIcon >
                             <ListItemText>Contact Us</ListItemText>
                         </ListItem>
@@ -64,7 +64,7 @@ const SideDrawer = (props) => {
                         <Link className="textColorWhite" to="/hireUs">
                         <ListItem button>
                             <ListItemIcon>
-                                <WorkIcon color="primary" />
+                                <WorkIcon className="textColorWhite" />
                             </ListItemIcon>
                              <ListItemText  >Hire Us</ListItemText>
                         </ListItem>
@@ -72,7 +72,7 @@ const SideDrawer = (props) => {
                         <Link  className="textColorWhite" to="/about">
                         <ListItem button>
                             <ListItemIcon>
-                                <InfoIcon color="primary" />
+                                <InfoIcon className="textColorWhite" />
                             </ListItemIcon>
                             <ListItemText>About Us</ListItemText>
                         </ListItem>
