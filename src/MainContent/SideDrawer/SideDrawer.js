@@ -23,6 +23,8 @@ const SideDrawer = (props) => {
     if (props.show) {
         drawerClasses = 'side_drawer open';
     }
+
+    
     return (
         <Fragment>
             <nav className={drawerClasses}>
@@ -37,7 +39,7 @@ const SideDrawer = (props) => {
                 </div>
                 <div className='home_nav_list'>
                     <List component="nav" aria-label="main mailbox folders">
-                        <Link  className="textColorWhite" to="/">
+                        <Link  className="textColorWhite" to="/" onClick={props.closeDrawer}>
                         <ListItem button>
                             <ListItemIcon>
                                 <HomeIcon className="textColorWhite" />
@@ -45,7 +47,7 @@ const SideDrawer = (props) => {
                             <ListItemText  > Home</ListItemText>
                         </ListItem>
                         </Link>
-                        <Link  className="textColorWhite" to="/services">
+                        <Link  className="textColorWhite" to="/services" onClick={props.closeDrawer}>
                         <ListItem button>
                             <ListItemIcon>
                                 <AssignmentTurnedInOutlinedIcon className="textColorWhite" />
@@ -53,7 +55,7 @@ const SideDrawer = (props) => {
                             <ListItemText >Service </ListItemText>
                         </ListItem>
                         </Link>
-                        <Link  className="textColorWhite" to="/contactUs">
+                        <Link  className="textColorWhite" to="/contactUs" onClick={props.closeDrawer}>
                         <ListItem button>
                             <ListItemIcon>
                                 <CallOutlinedIcon className="textColorWhite" />
@@ -61,7 +63,7 @@ const SideDrawer = (props) => {
                             <ListItemText>Contact Us</ListItemText>
                         </ListItem>
                         </Link>
-                        <Link className="textColorWhite" to="/hireUs">
+                        <Link className="textColorWhite" to="/hireUs" onClick={props.closeDrawer}>
                         <ListItem button>
                             <ListItemIcon>
                                 <WorkIcon className="textColorWhite" />
@@ -69,7 +71,7 @@ const SideDrawer = (props) => {
                              <ListItemText  >Hire Us</ListItemText>
                         </ListItem>
                         </Link>
-                        <Link  className="textColorWhite" to="/about">
+                        <Link  className="textColorWhite" to="/about" onClick={props.closeDrawer}>
                         <ListItem button>
                             <ListItemIcon>
                                 <InfoIcon className="textColorWhite" />
