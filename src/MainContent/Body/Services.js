@@ -38,21 +38,22 @@ export class Services extends Component {
 
     render() {
         const imgStyle = {
-            height: "175px"
+            height: "175px",
+            alignItems: "center"
         }
         return (
             <Fragment>
                 <Typography variant="h4" display="block" color="primary"> Our Major Services</Typography>
-                <div className="d-flex flex-column bd-highlight mb-3 mt-3">
+                <div className="d-flex flex-column bd-highlight mb-3 mt-3 ">
                     <div className="m-2">
                         <Card >
-                            <CardActionArea>
+                            <CardActionArea  className="text-center">
                                 <img style={imgStyle} src={Housekeeping}></img>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
                                         Housekeeping Services
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="div">
+                                    <Typography variant="body2" color="textSecondary" component="div" className="paragraphContent">
                                         We do provide the housekeeping service in the following areas given below
                                             <ol>
                                             <li>Carpet cleaning</li>
@@ -82,13 +83,13 @@ export class Services extends Component {
 
                     <div className="m-2">
                         <Card >
-                            <CardActionArea>
+                            <CardActionArea className="text-center">
                                 <img style={imgStyle} src={GarbagePickup}></img>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
                                         Garbage pickup Services
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p">
+                                    <Typography variant="body2" color="textSecondary" component="p" className="paragraphContent">
                                         This service has launched at very first time in Kolkata which is very important for our societies to be hygienic and fresh.<br />
                                         It's a door step servises for our Kolkata based customer to collect their garbage haul it away from your premises at the right places.
                                         Customers can book this service via call, sms, whatsapp and through contact us page.
@@ -111,13 +112,13 @@ export class Services extends Component {
 
                     <div className="m-2">
                         <Card >
-                            <CardActionArea>
+                            <CardActionArea className="text-center">
                                 <img style={imgStyle} src={GarbagePickup}></img>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
                                         Door step Junk removal Services
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p">
+                                    <Typography variant="body2" color="textSecondary" component="p" className="paragraphContent">
                                         This service has even a new innovative solutions for our people who has the limitted space in their premises.
                                         However they can't be disposed off their junk items at the right places just because of time availability and lots of other factors too in there around.<br />
                                         Hence we as a company stand and seeking out to serve you and clean out your junk from your doorstep by giving us a call, sms, whatsapp and through contact us page
@@ -140,13 +141,13 @@ export class Services extends Component {
 
                     <div className="m-2">
                         <Card >
-                            <CardActionArea>
+                            <CardActionArea className="text-center">
                                 <img style={imgStyle} src={carCleaning}></img>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
                                         Car-Bike washing Services
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p">
+                                    <Typography variant="body2" color="textSecondary" component="p" className="paragraphContent">
                                         These services has given more comfortable for our Kolkata based people and can take a high quality of cleaning services at their doorstep in affordable rates based on our customisable plans as per need.<br />
                                         This service is available for any class of people those who have their vehicles.<br />
                                         We do provide the complete cleaning services for car and bike for exterior - interior cleaning services too as per our customer's need.
@@ -169,13 +170,13 @@ export class Services extends Component {
 
                     <div className="m-2">
                         <Card >
-                            <CardActionArea>
+                            <CardActionArea className="text-center">
                                 <img style={imgStyle} src={sanitization}></img>
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="h2">
                                         Sanitization servises
                                     </Typography>
-                                    <Typography variant="body2" color="textSecondary" component="p">
+                                    <Typography variant="body2" color="textSecondary" component="p" className="paragraphContent">
                                         This service has even a new innovative solutions for our people who has the limitted space in their premises.
                                         Hence we as a company stand and seeking out to serve you and clean out your junk from your doorstep by giving us a call, sms, whatsapp and through contact us page
                                     </Typography>
