@@ -1,7 +1,12 @@
 import React, { Component, Fragment } from 'react'
 import './ContactUs.css'
 import { Form } from 'react-bootstrap'
-import { Typography } from '@material-ui/core'
+import { Typography, Input , TextField} from '@material-ui/core';
+import InputLabel from '@material-ui/core/InputLabel';
+import MenuItem from '@material-ui/core/MenuItem';
+import FormHelperText from '@material-ui/core/FormHelperText';
+import FormControl from '@material-ui/core/FormControl';
+import Select from '@material-ui/core/Select';
 
 export class contactUs extends Component {
     constructor(props) {
@@ -12,10 +17,11 @@ export class contactUs extends Component {
         }
     }
 
-    submitForm = (params) => {
+    submitForm = (event) => {
+        event.preventDefault();
         console.log("object")
     }
-
+    
     render() {
         return (
             <Fragment>
@@ -28,31 +34,111 @@ export class contactUs extends Component {
                             <Typography variant="h6" color="primary" align="center">Feel free to drop us a line below!</Typography>
                         </span>
                     </div>
-                    <form className="contact100-form validate_form ">
-                        <div className="formName formInput">
-                            <div><Typography variant="body1" >Name :</Typography></div>
-                            <div><input className="input100" type="text" id="name" name="name" placeholder="Enter full name" required /></div>
+                    <form className="contactusForm need-validation" noValidate>
+                        <div className="row">
+                            <div className="col">
+                                <div className="form-group">
+                                <TextField
+                                id="outlined-multiline-static"
+                                label="First Name"
+                                placeholder="Enter first Name"
+                                variant="outlined"
+                                name="firstName"
+                                id="firstName"
+                                className="w-100"
+                                />
+                                </div>
+                            </div>
+                            <div className="col">
+                                <div className="form-group">
+                                <TextField
+                                id="outlined-multiline-static"
+                                label="Last Name"
+                                placeholder="Enter Last Name"
+                                variant="outlined"
+                                name="lastName"
+                                id="lastName"
+                                className="w-100"
+                                />
+                                </div>
+                            </div>
                         </div>
-                        <div className="formPhone formInput">
-                            <div><Typography variant="body1" >Phone :</Typography></div>
-                            <div><input className="input100" type="text" name="phone" id="phone" placeholder="Enter phone number" required /></div>
+                        <div className="form-group">
+                        <TextField
+                                id="outlined-multiline-static"
+                                label="Enter Phone Number"
+                                placeholder="Enter your contact Number"
+                                variant="outlined"
+                                name="phone"
+                                id="phone"
+                                className="w-100"
+                                type="number"
+                                />
+                                
                         </div>
-                        <div className="formAddress formInput">
-                            <div><Typography variant="body1" >Address :</Typography></div>
-                            <div><input className="input100" type="text" id="address" name="address" placeholder="Enter valid address" /></div>
+                        <div className="form-group">
+                            
+                            <TextField
+                                id="outlined-multiline-static"
+                                label="Enter Address"
+                                multiline
+                                placeholder="Enter full Address"
+                                variant="outlined"
+                                name="address"
+                                id="address"
+                                className="w-100"
+                                />
+                            
                         </div>
-                        <div className="formMessage formInput">
-                            <div><Typography variant="body1" >Message :</Typography></div>
-                            <div><textarea className="input100" id="message" name="message" placeholder="Your Comment..."></textarea></div>
+                        <div className="form-group">
+                         <TextField
+                                id="outlined-multiline-static"
+                                label="Enter Pin Code"
+                                placeholder="Enter your Area Pin code"
+                                variant="outlined"
+                                name="pincode"
+                                id="pincode"
+                                className="w-100"
+                                type="number"
+                                />
+                                
                         </div>
-                        <div className="container-contact100-form-btn">
-                            <button className="btn btn-primary" onClick={this.submitForm}>
-                                <span>
-                                    Submit
-                                </span>
-                            </button>
+                        <div className="form-group">
+                        <FormControl variant="outlined" className="w-100">
+                            <InputLabel id="SelectGender">Gender</InputLabel>
+                                <Select
+                                    labelId="demo-simple-select-outlined-label"
+                                    id="demo-simple-select-outlined"
+                                    // value={age}
+                                    // onChange={handleChange}
+                                    label="Gender"
+                                    name="gender" 
+                                    id="gender"
+                                >
+                                    <MenuItem value={"male"}>Male</MenuItem>
+                                    <MenuItem value={"female"}>Female</MenuItem>
+                                    <MenuItem value={"other"}>Other</MenuItem>
+                            </Select>
+                        </FormControl>
+                        </div>
+                        <div className="form-group">
+                            <TextField
+                                id="outlined-multiline-static"
+                                label="Enter Message"
+                                multiline
+                                placeholder="Leave your message"
+                                variant="outlined"
+                                name="message"
+                                id="message"
+                                className="w-100"
+                                />
+                                
+                        </div>
+                        <div className="w-100 text-center pt-2">
+                        <button type="submit" className="btn btn-primary text-center " onClick={this.submitForm}>Submit</button>
                         </div>
                     </form>
+                   
                 </div>
             </Fragment >
         )
