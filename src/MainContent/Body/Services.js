@@ -41,6 +41,7 @@ export class Services extends Component {
             height: "175px",
             alignItems: "center"
         }
+        console.log(window.location.href)
         return (
             <Fragment>
                 <Typography variant="h4" display="block" color="primary" align="center"> Our Major Services</Typography>
@@ -69,9 +70,9 @@ export class Services extends Component {
                             </CardActionArea>
                             <CardActions className="text-center d-flex justify-content-around align-items-center">
                                 <span>
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
-                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
-                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    <WhatsappShareButton url={window.location.href} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={window.location.href} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={window.location.href} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
                                 </span>
                                 <span className="d-flex align-items-center mb-1">
 
@@ -99,9 +100,9 @@ export class Services extends Component {
                             <CardActions className="text-center d-flex justify-content-around align-items-center">
 
                                 <span>
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
-                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
-                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    <WhatsappShareButton url={window.location.href} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={window.location.href} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={window.location.href} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
                                 </span>
                                 <span className="d-flex align-items-center">
 
@@ -130,9 +131,9 @@ export class Services extends Component {
                             <CardActions className="text-center d-flex justify-content-around align-items-center">
 
                                 <span>
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
-                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
-                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    <WhatsappShareButton url={window.location.href} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={window.location.href} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={window.location.href} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
                                 </span>
                                 <span className="d-flex align-items-center">
 
@@ -162,9 +163,9 @@ export class Services extends Component {
                             <CardActions className="text-center d-flex justify-content-around align-items-center">
 
                                 <span>
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
-                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
-                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    <WhatsappShareButton url={window.location.href} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={window.location.href} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={window.location.href} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
                                 </span>
                                 <span className="d-flex align-items-center">
                                     <Typography variant="body2" color="primary" className=" mb-1">Appointment By:-</Typography>
@@ -191,9 +192,9 @@ export class Services extends Component {
                             </CardActionArea>
                             <CardActions className="text-center d-flex justify-content-around align-items-center">
                                 <span>
-                                    <WhatsappShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
-                                    <FacebookShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
-                                    <TwitterShareButton url={`https://master.d2vitjr6z78s4g.amplifyapp.com/`} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
+                                    <WhatsappShareButton url={window.location.href} className="mx-1"> <WhatsappIcon size={26} round={true} /></WhatsappShareButton>
+                                    <FacebookShareButton url={window.location.href} className="mx-1"> <FacebookIcon size={26} round={true} /></FacebookShareButton>
+                                    <TwitterShareButton url={window.location.href} className="mx-1"> <TwitterIcon size={26} round={true} /></TwitterShareButton>
                                 </span>
                                 <span className="d-flex align-items-center">
                                     <span> <Typography variant="body2" color="primary" className=" mb-1">Appointment By:-</Typography></span>
