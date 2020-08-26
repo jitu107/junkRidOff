@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from 'react'
 import './ContactUs.css'
+import { confirmAlert } from 'react-confirm-alert'; 
+import 'react-confirm-alert/src/react-confirm-alert.css';
+
 import { Form } from 'react-bootstrap'
 import { Typography, Input , TextField} from '@material-ui/core';
 import InputLabel from '@material-ui/core/InputLabel';
@@ -13,16 +16,107 @@ export class contactUs extends Component {
         super(props)
 
         this.state = {
+            firstName:'',
+            lastName:'',
+            phone:'',
+            address:'',
+            message:'',
+            gender: '',
+            pincode:'',
+            showFirstNameError : false,
+            showPhoneError: false,
 
         }
     }
 
+    changePhoneNumber=(event)=>{
+        let value =event.target.value;
+        this.setState({
+            phone : value
+        },()=>{
+            if(value.length === 10){
+                this.setState({
+                    showPhoneError:false
+                }) 
+            }
+            else{
+                this.setState({
+                    showPhoneError:true
+                }) 
+            }
+        })
+    }
+    changeInput=(event)=>{
+        let value =event.target.value;
+        let name = event.target.name;
+        if(!this.state.firstName){
+            if(name === 'firstName'){
+                this.setState({
+                    showFirstNameError:false
+                })
+            }
+        }
+       
+        this.setState({
+            [event.target.name] : value
+        }) 
+    }
     submitForm = (event) => {
         event.preventDefault();
-        console.log("object")
+        if(this.state.firstName === ''){
+            this.showAlert("Please Enter Valid First Name");
+            this.setState({
+                showFirstNameError : true
+            })
+        }else if(this.state.phone === '' || this.state.showPhoneError){
+            this.showAlert("Please Enter Valid Phone Number");
+            this.setState({
+                showPhoneError : true
+            })
+        }
+        else{
+            this.finalAlert("We will contact you soon.");
+
+        }
+    }
+    showAlert = (msg) => {
+        const options = {
+            message: msg,
+            buttons: [
+              {
+                label: 'Ok',
+                onClick: () => {}
+              }
+            ]
+          };
+          confirmAlert(options);
+         
+
+    }
+    
+    finalAlert = (msg) => {
+        const options = {
+            message: msg,
+            buttons: [
+              {
+                label: 'Ok',
+                onClick: () => {
+                    this.setState({
+                        showPhoneError:false,
+                        showFirstNameError:false
+                    },()=>{
+                        window.location.reload(false)
+                    }) 
+                    
+                }
+              }
+            ]
+          };
+          confirmAlert(options);
     }
     
     render() {
+        const {firstName, lastName,address,phone,gender,message,pincode,showFirstNameError,showPhoneError } = this.state;
         return (
             <Fragment>
                 <div className="wrap-contact100 contactus">
@@ -46,6 +140,9 @@ export class contactUs extends Component {
                                 name="firstName"
                                 id="firstName"
                                 className="w-100"
+                                value={firstName}
+                                onChange={this.changeInput}
+                                error={showFirstNameError}
                                 />
                                 </div>
                             </div>
@@ -59,6 +156,9 @@ export class contactUs extends Component {
                                 name="lastName"
                                 id="lastName"
                                 className="w-100"
+                                value={lastName}
+                                onChange={this.changeInput}
+
                                 />
                                 </div>
                             </div>
@@ -73,6 +173,9 @@ export class contactUs extends Component {
                                 id="phone"
                                 className="w-100"
                                 type="number"
+                                value={phone}
+                                onChange={this.changePhoneNumber}
+                                error={showPhoneError}
                                 />
                                 
                         </div>
@@ -87,6 +190,8 @@ export class contactUs extends Component {
                                 name="address"
                                 id="address"
                                 className="w-100"
+                                value={address}
+                                onChange={this.changeInput}
                                 />
                             
                         </div>
@@ -100,6 +205,8 @@ export class contactUs extends Component {
                                 id="pincode"
                                 className="w-100"
                                 type="number"
+                                value={pincode}
+                                onChange={this.changeInput}
                                 />
                                 
                         </div>
@@ -114,6 +221,8 @@ export class contactUs extends Component {
                                     label="Gender"
                                     name="gender" 
                                     id="gender"
+                                    value={gender}
+                                    onChange={this.changeInput}
                                 >
                                     <MenuItem value={"male"}>Male</MenuItem>
                                     <MenuItem value={"female"}>Female</MenuItem>
@@ -131,6 +240,8 @@ export class contactUs extends Component {
                                 name="message"
                                 id="message"
                                 className="w-100"
+                                value={message}
+                                onChange={this.changeInput}
                                 />
                                 
                         </div>
